@@ -1,0 +1,6 @@
+.form-grid {
+  display: grid;
+  grid-template-columns: auto 1fr; /* First column auto-sized, second takes remaining space */
+  gap: 10px; /* Adds space between grid items */
+  align-items: center; /* Vertically aligns items in each row */
+}

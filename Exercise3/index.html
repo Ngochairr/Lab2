@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <style>
+       .container {
+            display: -webkit-flex;
+            display: flex;
+            justify-content: center; 
+            align-items: center;                  
+        }
+
+        .container div {
+          background-color: #f1f1f1;
+          margin: 1px;
+          padding: 400px;
+          height: 300px;
+        }
+        .column.side {
+            flex-grow: 1;
+        }
+        .column.middle {
+            flex-grow: 2;
+        }
+
+          /* Style the footer */
+          .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+         }
+         .header {
+            background-color: #f1f1f1;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+         }
+        </style>
+    </head>
+    <body style="background-color:#ffcc66;">
+        <div class="header">
+            <h2>Header</h2>
+        </div>
+        <div class="container">
+          <div class = "column.side">Sidebar A</div>
+          <div class = "column.middle">Main Content</div>
+          <div class = "column.side">Sidebar B</div>
+        </div>
+        <div class="header">
+            <h2>Footer</h2>
+        </div>
+    </body>
+</html>
